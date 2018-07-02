@@ -1,0 +1,59 @@
+.player-container {
+  width: 700px;
+  margin: auto;
+}
+
+.player-container video {
+  width: 100%;
+}
+
+.progressbar {
+  height: 15px;
+  background: #e0e0e0;
+  cursor: pointer;
+  position: relative;
+}
+
+.progressbar .loaded {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.1);
+  z-index: 2;
+  left: 0px;
+  top: 0px;
+  height: 100%;
+}
+
+.progressbar .played {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.25);
+  z-index: 3;
+  left: 0px;
+  top: 0px;
+  height: 100%;
+}
+
+.progressbar .time-container {
+  position: absolute;
+  color: black;
+  z-index: 1;
+  right: 5px;
+  font-size: 12px;
+}
+
+.toolbar {
+  margin: 5px 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.toolbar button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 0px 5px;
+  cursor: pointer;
+}
